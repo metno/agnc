@@ -59,6 +59,4 @@ listeners:
           FAKTORY_URL: tcp://:<faktory password>@localhost:7419
 ```
 
-We make use of templating in the configuration file to structure commands for the processing system. This feature makes it possible to parametrise post-processing programs and doesn’t pose any requirements on the languages or libraries used. Any callable binary will work here.
-
 To leverage the flexibility of S3, we are planning to add a conversion to [Zarr](https://github.com/zarr-developers) and distribute the data further by pushing it back to the object storage.
